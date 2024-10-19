@@ -13,7 +13,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Applace",
+  title: "WanderGuide",
   description: "Places you need to see in your lifetime",
 };
 

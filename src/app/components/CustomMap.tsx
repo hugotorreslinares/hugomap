@@ -65,6 +65,7 @@ const CenterMap = ({ userLocation, targetLocation }: { userLocation: { lat: numb
 };
 
 export default function CustomMap() {
+  const [showLocations, setShowLocations] = useState(true);
   const [locations, setLocations] = useState<Location[]>([])
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null)
   const [userAddress, setUserAddress] = useState<string | null>(null)
@@ -106,6 +107,9 @@ export default function CustomMap() {
   const handleLocationClick = (location: Location) => {
     setTargetLocation({ lat: location.lat, lng: location.lng });
   };
+  const toggleLocations = () => {
+      setShowLocations(!showLocations);
+  };
 
   // Sort locations by distance from user location
   const sortedLocations = userLocation
@@ -119,7 +123,10 @@ export default function CustomMap() {
   return (
     <div className="flex h-screen w-full">
       <div className="w-1/4 bg-white p-4 overflow-y-auto">
-        <h2 className="text-xl font-bold mb-4">Locations</h2>
+        <h2 className="text-xl font-bold mb-4">Locations</h2>               
+        <button onClick={toggleLocations} className="mb-4 p-2 bg-gray-300 rounded">
+                    {showLocations ? 'Hide Locations' : 'Show Locations'}
+        </button>
         <ul>
           {userLocation && (
             <li className="cursor-pointer mb-2 bg-green-200 p-2 rounded" onClick={() => {
@@ -135,7 +142,7 @@ export default function CustomMap() {
               You are here: {userAddress ? userAddress : "Fetching address..."}
             </li>
           )}
-          {sortedLocations.map(location => {
+          {showLocations && sortedLocations.map(location => {
             const distance = userLocation ? haversineDistance(userLocation.lat, userLocation.lng, location.lat, location.lng) : 0;
             return (
               <li key={location.id} className="flex justify-between cursor-pointer mb-2" onClick={() => handleLocationClick(location)}>
