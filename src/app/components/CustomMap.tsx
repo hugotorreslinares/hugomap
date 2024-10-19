@@ -16,6 +16,7 @@ interface Location {
   image: string
 }
 
+
 // Icono personalizado para los marcadores
 const customIcon = new L.Icon({
   iconUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png',
@@ -88,7 +89,7 @@ export default function CustomMap() {
             .then(response => response.json())
             .then(data => {
               if (data && data.display_name) {
-                setUserAddress(data.display_name);
+                setUserAddress(data.address.road +'- '+data.address.neighbourhood );
               }
             })
             .catch(error => {
@@ -121,7 +122,16 @@ export default function CustomMap() {
         <h2 className="text-xl font-bold mb-4">Locations</h2>
         <ul>
           {userLocation && (
-            <li className="cursor-pointer mb-2 bg-green-200 p-2 rounded" onClick={() => handleLocationClick(userLocation)}>
+            <li className="cursor-pointer mb-2 bg-green-200 p-2 rounded" onClick={() => {
+              const currentLocation: Location = {
+                id: 0, // Assign a valid ID
+                title: "Current Location", // Provide a title
+                description: "You are currently here", // Provide a description
+                lat: userLocation.lat,
+                lng: userLocation.lng,
+                image: "", // Provide a valid image URL
+            };
+            handleLocationClick(currentLocation)}}>
               You are here: {userAddress ? userAddress : "Fetching address..."}
             </li>
           )}
