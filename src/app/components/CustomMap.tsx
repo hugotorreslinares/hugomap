@@ -34,6 +34,18 @@ const userIcon = new L.Icon({
   shadowSize: [41, 41]
 })
 
+// Haversine formula to calculate distance between two points
+const haversineDistance = (lat1: number, lon1: number, lat2: number, lon2: number): number => {
+  const R = 6371; // Radius of the Earth in kilometers
+  const dLat = (lat2 - lat1) * (Math.PI / 180);
+  const dLon = (lon2 - lon1) * (Math.PI / 180);
+  const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+            Math.cos(lat1 * (Math.PI / 180)) * Math.cos(lat2 * (Math.PI / 180)) *
+            Math.sin(dLon / 2) * Math.sin(dLon / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  return R * c; // Distance in kilometers
+}
+
 const CenterMap = ({ userLocation, targetLocation }: { userLocation: { lat: number; lng: number } | null, targetLocation: { lat: number; lng: number } | null }) => {
   const map = useMap();
 
@@ -94,6 +106,15 @@ export default function CustomMap() {
     setTargetLocation({ lat: location.lat, lng: location.lng });
   };
 
+  // Sort locations by distance from user location
+  const sortedLocations = userLocation
+    ? [...locations].sort((a, b) => {
+        const distanceA = haversineDistance(userLocation.lat, userLocation.lng, a.lat, a.lng);
+        const distanceB = haversineDistance(userLocation.lat, userLocation.lng, b.lat, b.lng);
+        return distanceA - distanceB; // Sort in ascending order
+      })
+    : locations;
+
   return (
     <div className="flex h-screen w-full">
       <div className="w-1/4 bg-white p-4 overflow-y-auto">
@@ -104,11 +125,15 @@ export default function CustomMap() {
               You are here: {userAddress ? userAddress : "Fetching address..."}
             </li>
           )}
-          {locations.map(location => (
-            <li key={location.id} className="cursor-pointer mb-2" onClick={() => handleLocationClick(location)}>
-              {location.title}
-            </li>
-          ))}
+          {sortedLocations.map(location => {
+            const distance = userLocation ? haversineDistance(userLocation.lat, userLocation.lng, location.lat, location.lng) : 0;
+            return (
+              <li key={location.id} className="flex justify-between cursor-pointer mb-2" onClick={() => handleLocationClick(location)}>
+                <span>{location.title}</span>
+                <span>{distance.toFixed(2)} km</span> {/* Distance aligned to the right */}
+              </li>
+            );
+          })}
         </ul>
       </div>
       <div className="w-3/4">
