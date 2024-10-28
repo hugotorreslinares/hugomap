@@ -2,7 +2,7 @@
   {
       "id": 1,
       "title": "Camp Humphreys",
-      "description": "Base militar en Corea del Sur, la más grande de Estados Unidos fuera de territorio estadounidense.",
+      "description": "Mayor base de Estados Unidos en Corea del Sur.",
       "lat": 36.9695,
       "lng": 127.0386,
       "image": "https://example.com/camp-humphreys.jpg",
@@ -11,7 +11,7 @@
   {
       "id": 2,
       "title": "Ramstein Air Base",
-      "description": "Importante base aérea en Alemania que sirve como centro de operaciones de la USAFE.",
+      "description": "Centro de operaciones en Alemania para la Fuerza Aérea de Estados Unidos.",
       "lat": 49.4369,
       "lng": 7.6009,
       "image": "https://example.com/ramstein-air-base.jpg",
@@ -20,7 +20,7 @@
   {
       "id": 3,
       "title": "Naval Support Activity Bahrain",
-      "description": "Base de apoyo naval en el Golfo Pérsico, utilizada para operaciones en Medio Oriente.",
+      "description": "Base de apoyo naval en el Golfo Pérsico.",
       "lat": 26.2154,
       "lng": 50.6092,
       "image": "https://example.com/nsa-bahrain.jpg",
@@ -28,47 +28,155 @@
   },
   {
       "id": 4,
-      "title": "Guantánamo Bay Naval Base",
-      "description": "Base naval en Cuba conocida por sus instalaciones de detención.",
-      "lat": 19.9028,
-      "lng": -75.1423,
-      "image": "https://example.com/guantanamo-bay.jpg",
-      "created_date": "1903-02-23"
-  },
-  {
-      "id": 5,
       "title": "Yokota Air Base",
-      "description": "Base aérea de EE.UU. en Japón que sirve como sede de la Fuerza Aérea en el Pacífico.",
+      "description": "Base aérea en Japón para operaciones en el Pacífico.",
       "lat": 35.7485,
       "lng": 139.3483,
       "image": "https://example.com/yokota-air-base.jpg",
       "created_date": "1940-11-01"
   },
   {
-      "id": 6,
+      "id": 5,
       "title": "Naval Station Rota",
-      "description": "Base naval en España que proporciona apoyo logístico a operaciones en Europa y África.",
+      "description": "Base naval en España con operaciones logísticas.",
       "lat": 36.6224,
       "lng": -6.3574,
       "image": "https://example.com/naval-station-rota.jpg",
       "created_date": "1953-06-01"
   },
   {
-      "id": 7,
+      "id": 6,
       "title": "Thule Air Base",
-      "description": "Base de la Fuerza Aérea en Groenlandia utilizada para misiones de vigilancia y detección de misiles.",
+      "description": "Base en Groenlandia para vigilancia de misiles.",
       "lat": 76.5312,
       "lng": -68.7031,
       "image": "https://example.com/thule-air-base.jpg",
       "created_date": "1951-06-01"
   },
   {
-      "id": 8,
+      "id": 7,
       "title": "Diego Garcia Naval Support Facility",
-      "description": "Base militar en el Océano Índico utilizada para misiones estratégicas y de vigilancia.",
+      "description": "Base estratégica en el Océano Índico.",
       "lat": -7.3134,
       "lng": 72.4229,
       "image": "https://example.com/diego-garcia.jpg",
       "created_date": "1971-03-23"
+  },
+  {
+      "id": 8,
+      "title": "Kadena Air Base",
+      "description": "Base aérea en Okinawa, Japón.",
+      "lat": 26.3556,
+      "lng": 127.7677,
+      "image": "https://example.com/kadena-air-base.jpg",
+      "created_date": "1945-04-01"
+  },
+  {
+      "id": 9,
+      "title": "Al Udeid Air Base",
+      "description": "Base aérea en Catar para operaciones en Medio Oriente.",
+      "lat": 25.1174,
+      "lng": 51.3147,
+      "image": "https://example.com/al-udeid-air-base.jpg",
+      "created_date": "1996-08-01"
+  },
+  {
+      "id": 10,
+      "title": "Fort Bragg",
+      "description": "Una de las mayores bases militares en Estados Unidos.",
+      "lat": 35.1418,
+      "lng": -79.0078,
+      "image": "https://example.com/fort-bragg.jpg",
+      "created_date": "1918-09-04"
+  },
+  {
+      "id": 11,
+      "title": "Andersen Air Force Base",
+      "description": "Base aérea en Guam, clave para la estrategia en el Pacífico.",
+      "lat": 13.584,
+      "lng": 144.9295,
+      "image": "https://example.com/andersen-afb.jpg",
+      "created_date": "1944-02-03"
+  },
+  {
+      "id": 12,
+      "title": "Camp Lemonnier",
+      "description": "Base en Yibuti utilizada para operaciones en África y Medio Oriente.",
+      "lat": 11.5475,
+      "lng": 43.1595,
+      "image": "https://example.com/camp-lemonnier.jpg",
+      "created_date": "2001-08-01"
+  },
+  {
+      "id": 13,
+      "title": "Misawa Air Base",
+      "description": "Base aérea en Japón que apoya operaciones de la USAF.",
+      "lat": 40.7039,
+      "lng": 141.3678,
+      "image": "https://example.com/misawa-air-base.jpg",
+      "created_date": "1938-06-01"
+  },
+  {
+      "id": 14,
+      "title": "Osan Air Base",
+      "description": "Base aérea en Corea del Sur.",
+      "lat": 37.0903,
+      "lng": 127.0295,
+      "image": "https://example.com/osan-air-base.jpg",
+      "created_date": "1952-12-01"
+  },
+  {
+      "id": 15,
+      "title": "Camp Zama",
+      "description": "Base militar del Ejército en Japón.",
+      "lat": 35.4894,
+      "lng": 139.389,
+      "image": "https://example.com/camp-zama.jpg",
+      "created_date": "1937-03-01"
+  },
+  {
+      "id": 16,
+      "title": "Fort Hood",
+      "description": "Gran base militar en Texas, Estados Unidos.",
+      "lat": 31.1358,
+      "lng": -97.779,
+      "image": "https://example.com/fort-hood.jpg",
+      "created_date": "1942-09-18"
+  },
+  {
+      "id": 17,
+      "title": "Elmendorf Air Force Base",
+      "description": "Base en Alaska que apoya la defensa aérea del Ártico.",
+      "lat": 61.251,
+      "lng": -149.801,
+      "image": "https://example.com/elmendorf-afb.jpg",
+      "created_date": "1940-01-01"
+  },
+  {
+      "id": 18,
+      "title": "Fort Benning",
+      "description": "Centro de entrenamiento y operaciones del Ejército de EE. UU.",
+      "lat": 32.3632,
+      "lng": -84.9877,
+      "image": "https://example.com/fort-benning.jpg",
+      "created_date": "1918-10-07"
+  },
+  {
+      "id": 19,
+      "title": "Aviano Air Base",
+      "description": "Base aérea en Italia, utilizada por la Fuerza Aérea de EE. UU.",
+      "lat": 46.032,
+      "lng": 12.5965,
+      "image": "https://example.com/aviano-air-base.jpg",
+      "created_date": "1955-08-15"
+  },
+  {
+      "id": 20,
+      "title": "Soto Cano Air Base",
+      "description": "Base en Honduras utilizada para apoyo de operaciones en América Latina.",
+      "lat": 14.382,
+      "lng": -87.6211,
+      "image": "https://example.com/soto-cano.jpg",
+      "created_date": "1981-05-01"
   }
 ]
