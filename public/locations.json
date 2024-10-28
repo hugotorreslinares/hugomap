@@ -1,681 +1,74 @@
 [
-    {
+  {
       "id": 1,
-      "title": "Torre Eiffel",
-      "description": "Icónico monumento de París",
-      "lat": 48.8584,
-      "lng": 2.2945,
-      "image": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWlmZmVsJTIwdG93ZXJ8ZW58MHx8MHx8fDA%3D"
-    },
-    {
+      "title": "Camp Humphreys",
+      "description": "Base militar en Corea del Sur, la más grande de Estados Unidos fuera de territorio estadounidense.",
+      "lat": 36.9695,
+      "lng": 127.0386,
+      "image": "https://example.com/camp-humphreys.jpg",
+      "created_date": "1950-07-01"
+  },
+  {
       "id": 2,
-      "title": "Coliseo Romano",
-      "description": "Anfiteatro antiguo en el centro de Roma",
-      "lat": 41.8902,
-      "lng": 12.4922,
-      "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sb3NzZXVtfGVufDB8fDB8fHww"
-    },
-    {
+      "title": "Ramstein Air Base",
+      "description": "Importante base aérea en Alemania que sirve como centro de operaciones de la USAFE.",
+      "lat": 49.4369,
+      "lng": 7.6009,
+      "image": "https://example.com/ramstein-air-base.jpg",
+      "created_date": "1952-08-05"
+  },
+  {
       "id": 3,
-      "title": "Estatua de la Libertad",
-      "description": "Monumento emblemático de Nueva York",
-      "lat": 40.6892,
-      "lng": -74.0445,
-      "image": "https://images.unsplash.com/photo-1605130284535-11dd9eedc58a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3RhdHVlJTIwb2YlMjBsaWJlcnR5fGVufDB8fDB8fHww"
-    },
-    {
+      "title": "Naval Support Activity Bahrain",
+      "description": "Base de apoyo naval en el Golfo Pérsico, utilizada para operaciones en Medio Oriente.",
+      "lat": 26.2154,
+      "lng": 50.6092,
+      "image": "https://example.com/nsa-bahrain.jpg",
+      "created_date": "1971-10-01"
+  },
+  {
       "id": 4,
-      "title": "Taj Mahal",
-      "description": "Mausoleo de mármol blanco en Agra, India",
-      "lat": 27.1751,
-      "lng": 78.0421,
-      "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGFqJTIwbWFoYWx8ZW58MHx8MHx8fDA%3D"
-    },
-    {
+      "title": "Guantánamo Bay Naval Base",
+      "description": "Base naval en Cuba conocida por sus instalaciones de detención.",
+      "lat": 19.9028,
+      "lng": -75.1423,
+      "image": "https://example.com/guantanamo-bay.jpg",
+      "created_date": "1903-02-23"
+  },
+  {
       "id": 5,
-      "title": "Machu Picchu",
-      "description": "Ciudad inca en los Andes peruanos",
-      "lat": -13.1631,
-      "lng": -72.5450,
-      "image": "https://images.unsplash.com/photo-1526392060635-9d6019884377?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjaHUlMjBwaWNjaHV8ZW58MHx8MHx8fDA%3D"
-    },
-    {
+      "title": "Yokota Air Base",
+      "description": "Base aérea de EE.UU. en Japón que sirve como sede de la Fuerza Aérea en el Pacífico.",
+      "lat": 35.7485,
+      "lng": 139.3483,
+      "image": "https://example.com/yokota-air-base.jpg",
+      "created_date": "1940-11-01"
+  },
+  {
       "id": 6,
-      "title": "Gran Muralla China",
-      "description": "Serie de fortificaciones en el norte de China",
-      "lat": 40.4319,
-      "lng": 116.5704,
-      "image": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JlYXQlMjB3YWxsJTIwb2YlMjBjaGluYXxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
+      "title": "Naval Station Rota",
+      "description": "Base naval en España que proporciona apoyo logístico a operaciones en Europa y África.",
+      "lat": 36.6224,
+      "lng": -6.3574,
+      "image": "https://example.com/naval-station-rota.jpg",
+      "created_date": "1953-06-01"
+  },
+  {
       "id": 7,
-      "title": "Petra",
-      "description": "Ciudad antigua tallada en piedra en Jordania",
-      "lat": 30.3285,
-      "lng": 35.4444,
-      "image": "https://images.unsplash.com/photo-1563177978-4c5eb2c0e524?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGV0cmF8ZW58MHx8MHx8fDA%3D"
-    },
-    {
+      "title": "Thule Air Base",
+      "description": "Base de la Fuerza Aérea en Groenlandia utilizada para misiones de vigilancia y detección de misiles.",
+      "lat": 76.5312,
+      "lng": -68.7031,
+      "image": "https://example.com/thule-air-base.jpg",
+      "created_date": "1951-06-01"
+  },
+  {
       "id": 8,
-      "title": "Cristo Redentor",
-      "description": "Estatua de Jesús en Río de Janeiro",
-      "lat": -22.9519,
-      "lng": -43.2105,
-      "image": "https://images.unsplash.com/photo-1594387295585-34ba4c251a35?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hyaXN0JTIwdGhlJTIwcmVkZWVtZXJ8ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 9,
-      "title": "Angkor Wat",
-      "description": "Complejo de templos en Camboya",
-      "lat": 13.4125,
-      "lng": 103.8670,
-      "image": "https://images.unsplash.com/photo-1563892628-a1b0c0f7e1d6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW5na29yJTIwd2F0fGVufDB8fDB8fHww"
-    },
-    {
-      "id": 10,
-      "title": "Chichén Itzá",
-      "description": "Ciudad maya precolombina en México",
-      "lat": 20.6843,
-      "lng": -88.5678,
-      "image": "https://images.unsplash.com/photo-1518638150340-f706e86654de?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpY2hlbiUyMGl0emF8ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 11,
-      "title": "Acrópolis de Atenas",
-      "description": "Ciudadela antigua en Atenas, Grecia",
-      "lat": 37.9715,
-      "lng": 23.7267,
-      "image": "https://images.unsplash.com/photo-1555993539-1732b0258235?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWNyb3BvbGlzfGVufDB8fDB8fHww"
-    },
-    {
-      "id": 12,
-      "title": "Sagrada Familia",
-      "description": "Basílica icónica en Barcelona, España",
-      "lat": 41.4036,
-      "lng": 2.1744,
-      "image": "https://images.unsplash.com/photo-1583779457094-ab6f77f7bf57?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2FncmFkYSUyMGZhbWlsaWF8ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 13,
-      "title": "Cataratas del Niágara",
-      "description": "Grupo de cascadas en la frontera de EE. UU. y Canadá",
-      "lat": 43.0799,
-      "lng": -79.0747,
-      "image": "https://images.unsplash.com/photo-1489447068241-b3490214e879?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmlhZ2FyYSUyMGZhbGxzfGVufDB8fDB8fHww"
-    },
-    {
-      "id": 14,
-      "title": "Monte Fuji",
-      "description": "Volcán más alto de Japón",
-      "lat": 35.3606,
-      "lng": 138.7274,
-      "image": "https://images.unsplash.com/photo-1570459027562-4a916cc6113f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnQlMjBmdWppfGVufDB8fDB8fHww"
-    },
-    {
-      "id": 15,
-      "title": "Stonehenge",
-      "description": "Monumento prehistórico en Inglaterra",
-      "lat": 51.1789,
-      "lng": -1.8262,
-      "image": "https://images.unsplash.com/photo-1564598328706-70cecb6ad257?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3RvbmVoZW5nZXxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 16,
-      "title": "Ópera de Sídney",
-      "description": "Centro de artes escénicas en Sídney, Australia",
-      "lat": -33.8568,
-      "lng": 151.2153,
-      "image": "https://images.unsplash.com/photo-1624138784614-87fd1b6528f8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3lkbmV5JTIwb3BlcmElMjBob3VzZXxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 17,
-      "title": "Petra",
-      "description": "Ciudad antigua tallada en piedra en Jordania",
-      "lat": 30.3285,
-      "lng": 35.4444,
-      "image": "https://images.unsplash.com/photo-1563177978-4c5eb2c0e524?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGV0cmF8ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 18,
-      "title": "Machu Picchu",
-      "description": "Ciudad inca en los Andes peruanos",
-      "lat": -13.1631,
-      "lng": -72.5450,
-      "image": "https://images.unsplash.com/photo-1526392060635-9d6019884377?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjaHUlMjBwaWNjaHV8ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 19,
-      "title": "Gran Cañón",
-      "description": "Cañón profundo tallado por el río Colorado en Arizona",
-      "lat": 36.0544,
-      "lng": -112.1401,
-      "image": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JhbmQlMjBjYW55b258ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 20,
-      "title": "Santorini",
-      "description": "Isla en el mar Egeo conocida por sus vistas panorámicas",
-      "lat": 36.3932,
-      "lng": 25.4615,
-      "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2FudG9yaW5pfGVufDB8fDB8fHww"
-    },
-    {
-      "id": 21,
-      "title": "Burj Khalifa",
-      "description": "The tallest building in the world located in Dubai, UAE.",
-      "lat": 25.1972,
-      "lng": 55.2744,
-      "image": "https://images.unsplash.com/photo-1562571302-1b1c1c1c1c1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGJ1cmolMjBraGFsaWZhJTIwZG91YmF8ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 22,
-      "title": "Great Barrier Reef",
-      "description": "The world's largest coral reef system located in Australia.",
-      "lat": -18.2871,
-      "lng": 147.6992,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGdyZWF0JTIwYmFyaWVyJTIwcmVmJTIwZXh0ZW5zaW9uJTIwYXZhdGFyJTIwY29yYWwlMjBhbGxvd3xlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 23,
-      "title": "Machu Picchu",
-      "description": "An ancient Incan city located in the Andes mountains of Peru.",
-      "lat": -13.1631,
-      "lng": -72.5450,
-      "image": "https://images.unsplash.com/photo-1526392060635-9d6019884377?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjaHUlMjBwaWNjaHV8ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 24,
-      "title": "Niagara Falls",
-      "description": "Famous waterfalls located on the border of the USA and Canada.",
-      "lat": 43.0799,
-      "lng": -79.0747,
-      "image": "https://images.unsplash.com/photo-1489447068241-b3490214e879?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmlhZ2FyYSUyMGZhbGxzfGVufDB8fDB8fHww"
-    },
-    {
-      "id": 25,
-      "title": "Santorini",
-      "description": "A beautiful island in the Aegean Sea known for its stunning sunsets.",
-      "lat": 36.3932,
-      "lng": 25.4615,
-      "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2FudG9yaW5pfGVufDB8fDB8fHww"
-    },
-    {
-      "id": 26,
-      "title": "Galápagos Islands",
-      "description": "An archipelago known for its unique wildlife and biodiversity.",
-      "lat": -0.9538,
-      "lng": -90.9656,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGdhbGFwYWdvc3xlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 27,
-      "title": "Stonehenge",
-      "description": "A prehistoric monument located in Wiltshire, England.",
-      "lat": 51.1789,
-      "lng": -1.8262,
-      "image": "https://images.unsplash.com/photo-1564598328706-70cecb6ad257?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3RvbmVoZW5nZXxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 28,
-      "title": "Eiffel Tower",
-      "description": "An iconic symbol of Paris, France.",
-      "lat": 48.8584,
-      "lng": 2.2945,
-      "image": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWlmZmVsJTIwdG93ZXJ8ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 29,
-      "title": "Grand Canyon",
-      "description": "A steep-sided canyon carved by the Colorado River in Arizona.",
-      "lat": 36.0544,
-      "lng": -112.1401,
-      "image": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JhbmQlMjBjYW55b258ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 30,
-      "title": "Machu Picchu",
-      "description": "An ancient Incan city located in the Andes mountains of Peru.",
-      "lat": -13.1631,
-      "lng": -72.5450,
-      "image": "https://images.unsplash.com/photo-1526392060635-9d6019884377?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjaHUlMjBwaWNjaHV8ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 31,
-      "title": "Victoria Falls",
-      "description": "One of the largest and most famous waterfalls in the world.",
-      "lat": -17.9243,
-      "lng": 25.8572,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dmljdG9yaWEgZmFsbHxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 32,
-      "title": "Salar de Uyuni",
-      "description": "The world's largest salt flat located in Bolivia.",
-      "lat": -20.1338,
-      "lng": -66.8480,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2FsYXIlMjBkZSUyMHV5dW5pfGVufDB8fDB8fHww"
-    },
-    {
-      "id": 33,
-      "title": "Table Mountain",
-      "description": "A flat-topped mountain overlooking Cape Town, South Africa.",
-      "lat": -33.9625,
-      "lng": 18.4092,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGFibGUgbW91bnRhaW58ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 34,
-      "title": "Angkor Wat",
-      "description": "A temple complex in Cambodia and one of the largest religious monuments in the world.",
-      "lat": 13.4125,
-      "lng": 103.8670,
-      "image": "https://images.unsplash.com/photo-1563892628-a1b0c0f7e1d6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW5na29yJTIwd2F0fGVufDB8fDB8fHww"
-    },
-    {
-      "id": 35,
-      "title": "Hagia Sophia",
-      "description": "A former Greek Orthodox Christian basilica, later an imperial mosque and now a museum in Istanbul, Turkey.",
-      "lat": 41.0085,
-      "lng": 28.9802,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGFnaWF8ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 36,
-      "title": "Petra",
-      "description": "An archaeological site in Jordan, famous for its rock-cut architecture and water conduit system.",
-      "lat": 30.3285,
-      "lng": 35.4444,
-      "image": "https://images.unsplash.com/photo-1563177978-4c5eb2c0e524?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGV0cmF8ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 37,
-      "title": "Blue Lagoon",
-      "description": "A geothermal spa in Iceland, known for its bright blue waters.",
-      "lat": 63.8804,
-      "lng": -22.4495,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZSUyMGxhZ29vbnxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 38,
-      "title": "Reykjavik",
-      "description": "The capital city of Iceland, known for its modernist architecture and vibrant culture.",
-      "lat": 64.1355,
-      "lng": -21.8954,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmV5a2phdmlrfGVufDB8fDB8fHww"
-    },
-    {
-      "id": 39,
-      "title": "Mount Kilimanjaro",
-      "description": "The highest mountain in Africa, located in Tanzania.",
-      "lat": -3.0674,
-      "lng": 37.3556,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnQlMjBraWxpbWFuamFyb3xlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 40,
-      "title": "Kilimanjaro National Park",
-      "description": "A national park in Tanzania, home to Mount Kilimanjaro.",
-      "lat": -3.0674,
-      "lng": 37.3556,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8a2lsaW1hbnphcm8lMjBuYXRpb25hbCUyMHBhcmslMjB0YW5emXxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 41,
-      "title": "Iguazu Falls",
-      "description": "One of the largest and most spectacular waterfalls in the world.",
-      "lat": -25.6953,
-      "lng": -54.4367,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aWd1YXolMjBmYWxsc3xlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 42,
-      "title": "Buenos Aires",
-      "description": "The vibrant capital city known for its European-style architecture.",
-      "lat": -34.6037,
-      "lng": -58.3816,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVlbm9zJTIwYWlyZXxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 43,
-      "title": "Mendoza",
-      "description": "Famous for its wine production and stunning Andes mountain views.",
-      "lat": -32.8894,
-      "lng": -68.8458,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVuemRvfGVufDB8fDB8fHww"
-    },
-    {
-      "id": 44,
-      "title": "Bariloche",
-      "description": "A picturesque town known for its Swiss-style architecture and chocolate.",
-      "lat": -41.1335,
-      "lng": -71.3103,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFyaWxvY2hlJTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 45,
-      "title": "Perito Moreno Glacier",
-      "description": "A stunning glacier located in Los Glaciares National Park.",
-      "lat": -50.4951,
-      "lng": -73.0503,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyaXRvJTIwbWVyb25lJTIwZ2xhY2llcnxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 46,
-      "title": "Tigre Delta",
-      "description": "A unique delta region with beautiful waterways and lush greenery.",
-      "lat": -34.4208,
-      "lng": -58.5700,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGlncmUlMjBkZWx0YXxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 47,
-      "title": "Salinas Grandes",
-      "description": "A stunning salt flat located in the northwest of Argentina.",
-      "lat": -24.2000,
-      "lng": -65.3000,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2FsaW5hcyUyMGdyYW5kZXxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 48,
-      "title": "Quebrada de Humahuaca",
-      "description": "A stunning valley known for its colorful mountains and rich culture.",
-      "lat": -23.2020,
-      "lng": -65.3500,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cXVlYnJhZGF8ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 49,
-      "title": "Córdoba",
-      "description": "A historic city known for its colonial architecture and vibrant culture.",
-      "lat": -31.4201,
-      "lng": -64.1888,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29yZG9iYXxlbnwwfHwwfHx8MA%3D%3D"
-    }, {
-      "id": 50,
-      "title": "Christ the Redeemer",
-      "description": "An iconic statue of Jesus Christ overlooking Rio de Janeiro.",
-      "lat": -22.9519,
-      "lng": -43.2105,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hyaXN0JTIwcmVkZWVtZXJ8ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 51,
-      "title": "Amazon Rainforest",
-      "description": "The largest rainforest in the world, rich in biodiversity.",
-      "lat": -3.4653,
-      "lng": -62.2159,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW1hem9uaGF8ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 52,
-      "title": "Pantanal",
-      "description": "The world's largest tropical wetland area, known for its wildlife.",
-      "lat": -16.5000,
-      "lng": -56.0000,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFudGFufGVufDB8fDB8fHww"
-    },
-    {
-      "id": 53,
-      "title": "Sugarloaf Mountain",
-      "description": "A peak situated in Rio de Janeiro, offering stunning views.",
-      "lat": -22.9486,
-      "lng": -43.1555,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3VnYXJsbG9hZCUyMG1vdW50YWluJTIwcmVhY3Rpb258ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 54,
-      "title": "Salvador",
-      "description": "A historic city known for its colonial architecture and vibrant culture.",
-      "lat": -12.9714,
-      "lng": -38.5014,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2FsdmFkb3IlMjBjaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 55,
-      "title": "Iguazu National Park",
-      "description": "Home to the stunning Iguazu Falls and diverse wildlife.",
-      "lat": -25.6953,
-      "lng": -54.4367,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aWd1YXp1JTIwZmFsbHxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 56,
-      "title": "Fernando de Noronha",
-      "description": "An archipelago known for its stunning beaches and marine life.",
-      "lat": -3.8570,
-      "lng": -32.4230,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmVybmFuZG8lMjBkZSUyTm5vcm9uaGF8ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 57,
-      "title": "Chapada Diamantina",
-      "description": "A national park known for its stunning landscapes and hiking trails.",
-      "lat": -12.5000,
-      "lng": -41.5000,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hhcGFkYSUyMGRpYW1hbnRpbmF8ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 58,
-      "title": "Lencois Maranhenses",
-      "description": "A national park known for its unique sand dunes and lagoons.",
-      "lat": -2.5150,
-      "lng": -43.1500,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGVuY29pcyUyMG1hcmFuaGVuc2V8ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 59,
-      "title": "Torres del Paine",
-      "description": "A national park known for its stunning mountains and glaciers.",
-      "lat": -51.1605,
-      "lng": -72.3352,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dG9ycmVzJTIwZGVsJTIwUGFpbmV8ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 60,
-      "title": "Atacama Desert",
-      "description": "The driest desert in the world, known for its unique landscapes.",
-      "lat": -24.3019,
-      "lng": -68.2010,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXRhY2FtYSUyMGRlc2VydHxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 61,
-      "title": "Easter Island",
-      "description": "Famous for its archaeological sites and moai statues.",
-      "lat": -27.1127,
-      "lng": -109.3497,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWFzdGVyJTIwS2luZyUyMElzbGFuZCUyMHRvJTIwY2hhbGxlbmdlJTIwY29sb25pYWxlJTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 62,
-      "title": "Valparaiso",
-      "description": "A colorful coastal city known for its steep hills and vibrant street art.",
-      "lat": -33.0472,
-      "lng": -71.6127,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dmFscGFyYWlzbyUyMGNpdHklMjBjaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 63,
-      "title": "Santiago",
-      "description": "The capital city known for its modern architecture and cultural attractions.",
-      "lat": -33.4489,
-      "lng": -70.6693,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2FudGlhZ28lMjBjaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 64,
-      "title": "Lake District",
-      "description": "Known for its beautiful lakes and stunning landscapes.",
-      "lat": -39.5000,
-      "lng": -72.0000,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFrZSUyMGRpc3RyaWN0JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 65,
-      "title": "Cerro San Cristóbal",
-      "description": "A hill in Santiago offering panoramic views of the city.",
-      "lat": -33.4691,
-      "lng": -70.6415,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Vycm8lMjBTYW4lMjBDcmlzdG9iYWwlMjBjaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 66,
-      "title": "Punta Arenas",
-      "description": "A city in southern Chile known for its history and proximity to Antarctica.",
-      "lat": -53.1638,
-      "lng": -70.9171,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHVudGF8ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 67,
-      "title": "Chiloé Island",
-      "description": "Known for its unique culture, architecture, and beautiful landscapes.",
-      "lat": -42.5000,
-      "lng": -73.5000,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpbG9lJTIwaXNsYW5kJTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 68,
-      "title": "Chichen Itza",
-      "description": "A large pre-Columbian archaeological site built by the Maya civilization.",
-      "lat": 20.6843,
-      "lng": -88.5678,
-      "image": "https://images.unsplash.com/photo-1518638150340-f706e86654de?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpY2hlbiUyMGl0emF8ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 69,
-      "title": "Cancun",
-      "description": "A popular tourist destination known for its beautiful beaches.",
-      "lat": 21.1619,
-      "lng": -86.8515,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FuY3VufGVufDB8fDB8fHww"
-    },
-    {
-      "id": 70,
-      "title": "Mexico City",
-      "description": "The capital city known for its rich history and culture.",
-      "lat": 19.4326,
-      "lng": -99.1332,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWV4aWNvJTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 71,
-      "title": "Teotihuacan",
-      "description": "An ancient Mesoamerican city known for its pyramids.",
-      "lat": 19.6925,
-      "lng": -98.8430,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGVvdGlodWFjYW58ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 72,
-      "title": "Copper Canyon",
-      "description": "A group of six canyons in the Sierra Tarahumara region.",
-      "lat": 27.0583,
-      "lng": -107.5000,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29wcGVyJTIwY2FueW9uJTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 73,
-      "title": "Palenque",
-      "description": "An ancient Maya city in the jungle of Chiapas.",
-      "lat": 17.4840,
-      "lng": -92.0450,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFsZW5xdWV8ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 74,
-      "title": "Tulum",
-      "description": "A coastal town known for its ancient Mayan ruins and beaches.",
-      "lat": 20.2115,
-      "lng": -87.4659,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHVsdW18ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 75,
-      "title": "Oaxaca",
-      "description": "Known for its rich culture, food, and colonial architecture.",
-      "lat": 17.0732,
-      "lng": -96.7266,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b2F4YWNhJTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 76,
-      "title": "Xcaret Park",
-      "description": "An eco-archaeological park with various attractions.",
-      "lat": 20.6280,
-      "lng": -87.0739,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8eGNhcnV0JTIwcGFyayUyMGNpdHxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 77,
-      "title": "Cartagena",
-      "description": "A historic city known for its colonial architecture and vibrant culture.",
-      "lat": 10.3910,
-      "lng": -75.4794,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FydGFnZW5hfGVufDB8fDB8fHww"
-    },
-    {
-      "id": 78,
-      "title": "Medellín",
-      "description": "Known for its innovation, culture, and pleasant climate.",
-      "lat": 6.2442,
-      "lng": -75.5812,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVkaWxsZWluJTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 79,
-      "title": "Bogotá",
-      "description": "The capital city known for its rich history and cultural attractions.",
-      "lat": 4.6110,
-      "lng": -74.0823,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Qm9nJTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 80,
-      "title": "Cocora Valley",
-      "description": "Famous for its towering wax palm trees and stunning landscapes.",
-      "lat": 4.2000,
-      "lng": -75.4000,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29jb3JhJTIwVmFsbGV5fGVufDB8fDB8fHww"
-    },
-    {
-      "id": 81,
-      "title": "Tayrona National Park",
-      "description": "A stunning national park known for its beautiful beaches and biodiversity.",
-      "lat": 10.5167,
-      "lng": -74.0660,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGF5cm9uYSUyME5hdGlvbmFsJTIwUGFyayUyMGNpdHxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 82,
-      "title": "San Andrés Island",
-      "description": "A beautiful Caribbean island known for its beaches and coral reefs.",
-      "lat": 12.5833,
-      "lng": -81.7000,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2FuJTIwQW5kcmVzJTIwSW5sYW5kfGVufDB8fDB8fHww"
-    },
-    {
-      "id": 83,
-      "title": "Villa de Leyva",
-      "description": "A charming colonial town known for its cobblestone streets and historic architecture.",
-      "lat": 5.5700,
-      "lng": -73.5250,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VmlsbGEyJTIwRGV8ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      "id": 84,
-      "title": "Caño Cristales",
-      "description": "Known as the 'Liquid Rainbow', famous for its colorful river.",
-      "lat": 1.5000,
-      "lng": -74.0000,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2FubyUyMENyaXN0YWxlcyUyMGNpdHxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-      "id": 85,
-      "title": "Popayán",
-      "description": "A historic city known for its white colonial buildings and gastronomy.",
-      "lat": 2.4370,
-      "lng": -76.6050,
-      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UG9wYXlhbiUyMGNpdHxlbnwwfHwwfHx8MA%3D%3D"
-    }
-  ]
+      "title": "Diego Garcia Naval Support Facility",
+      "description": "Base militar en el Océano Índico utilizada para misiones estratégicas y de vigilancia.",
+      "lat": -7.3134,
+      "lng": 72.4229,
+      "image": "https://example.com/diego-garcia.jpg",
+      "created_date": "1971-03-23"
+  }
+]
