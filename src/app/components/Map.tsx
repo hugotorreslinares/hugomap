@@ -62,7 +62,7 @@ const Map: React.FC<MapProps> = ({
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
       {locations.map((location) => (
-        <Marker key={location.id} position={[location.lat, location.lng]} icon={customIcon}>
+        <Marker key={location.id} position={[location.lat, location.lng]} icon={userIcon}>
           <Popup>
             <div className="max-w-sm">
               <h2 className="text-lg font-bold mb-2">{location.title}</h2>
@@ -77,7 +77,7 @@ const Map: React.FC<MapProps> = ({
         </Marker>
       ))}
       {userLocation && (
-        <Marker position={[userLocation.lat, userLocation.lng]} icon={userIcon}>
+        <Marker position={[userLocation.lat, userLocation.lng]} icon={customIcon}>
           <Popup>
             <div className="max-w-sm">
               <h2 className="text-lg font-bold mb-2">You are here</h2>

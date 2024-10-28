@@ -11,7 +11,7 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ toggleLocations, showLocations }) => {
   return (
     <header className="bg-white p-4 shadow-md">
-      <h1 className="text-2xl font-bold">WanderTravel</h1>
+      <h1 className="text-2xl font-bold">American Military bases around the world</h1>
       <button
         onClick={toggleLocations}
         className="mt-2 p-2 bg-gray-300 rounded"

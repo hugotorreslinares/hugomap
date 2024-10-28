@@ -12,7 +12,7 @@ interface SidebarProps {
   handleLocationClick: (location: Location) => void;
   toggleLocations: () => void;
 }
-
+const showInfoPanel = (location)=>{console.log(location)};
 const Sidebar: React.FC<SidebarProps> = ({
   showLocations,
   userLocation,
@@ -52,7 +52,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                 <li
                   key={location.id}
                   className="flex justify-between cursor-pointer mb-2"
-                  onClick={() => handleLocationClick(location)}
+                  onClick={() => {handleLocationClick(location);showInfoPanel(location)}}
                 >
                   <span>{location.title}</span>
                   <span>{distance.toFixed(2)} km</span>
